@@ -1,7 +1,36 @@
 body{
-    font-size: 200%;
+    font-size: 300%;
 }
+
+/* HEADER */
+.logo{
+	width: 100px;
+}
+.header-banner{
+	background-color: #F56F6C;
+	color: #fff;
+	padding: 2em 0;
+}
+h1{
+	font-size: 2em;
+	text-transform: uppercase;
+}
+h1 span{
+	font-size: 1.5em;
+}
+
+/* END HEADER */
+
 
 .carreiras{
     list-style: none;
+}
+.courses-tree{
+	font-size: 4em;
+}
+
+.bg-lua{
+	background: url('../img/stardust.png');
+	color: #fff;
+	padding: 2em 0;
 }
