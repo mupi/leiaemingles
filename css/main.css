@@ -1,13 +1,25 @@
 body{
+	font-family: 'Lato';
     font-size: 300%;
 }
 
+/* TIPOGRAPHY */
+.title{
+	font-weight: bold;
+	margin: 1em 0;
+}
+
+/* END TIPOGRAPHY */
+
 /* HEADER */
+nav{
+	padding: 10px 0;
+}
 .logo{
 	width: 100px;
 }
 .header-banner{
-	background-color: #F56F6C;
+	background-color: #f48753;
 	color: #fff;
 	padding: 2em 0;
 }
@@ -21,6 +33,10 @@ h1 span{
 
 /* END HEADER */
 
+.paths{
+	padding: 2em 0;
+}
+
 
 .carreiras{
     list-style: none;
@@ -30,7 +46,7 @@ h1 span{
 }
 
 .bg-lua{
-	background: url('../img/stardust.png');
+	background: url('../img/stardust.png') fixed;
 	color: #fff;
-	padding: 2em 0;
+	padding-top: 2em;
 }
