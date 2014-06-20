@@ -20,17 +20,27 @@
     <![endif]-->
   </head>
   <body>
+    <div id="skrollr-body">
+        <div class="container">
+            <div id="bonequinho" class="bonecoparado"></div>
+        </div>
+    </div>
+
     <nav class="container">
         <img class="logo pull-right" src="img/logo.png" alt="Mupi logo">
     </nav>
     <div class="header-banner">
         <header class="container">
-            <h1>Como iniciar uma carreira de <span>sucesso</span> na Escola Mupi</h1>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-2">
+                    <h1>Como iniciar uma carreira de <span>sucesso</span> na Escola Mupi</h1>
+                </div>
+            </div>
         </header>
     </div>
     <div class="container">
         <div class="row paths">
-            <div class="col-md-3">
+            <div class="col-md-1 col-md-offset-2">
                 <img class="img-responsive" src="img/paths.png" alt="carreiras">
             </div>
             <section class="col-md-8 col-md-offset-1">
@@ -39,14 +49,20 @@
                     Muitas vezes é difícil saber por onde começar a aprender. Através das carreiras nós te
                     damos passo a passo o conhecimento necessário para se especializar em alguma profissão
                 </p>
+                <p class="pull-right">
+                    <a class="btn btn-success" href="http://escolamupi.com.br/courses">Conheça as carreiras disponíveis</a>
+                </p>
             </section>
         </div>
     </div>
     <div class="bg-lua">
          <div class="container">
             <div class="col-md-6">
-                <p class="title">Aprenda de qualquer lugar</p>
-                <small>Nossa escola é 100% online, você pode acessá-la de onde você estiver e a hora que quiser</small>
+                <h2 class="title">Aprenda de qualquer lugar</h2>
+                <p>Nossa escola é 100% online, você pode acessá-la de onde você estiver e a hora que quiser</p>
+                <p>
+                    <a class="btn btn-success" href="http://escolamupi.com.br/accounts/signup/">Comece agora gratuitamente!</a>
+                </p>
             </div>
             <div class="col-md-6">
                 <img class="pull-right" src="img/lua.png" alt="Mupi logo">
@@ -56,7 +72,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p class="title">Aprenda na prática</p>
+                <h2 class="title"><i class="fa fa-puzzle-piece"></i> Aprenda na prática</h2>
                 <p>Você não precisa mais gastar horas tentando filtrar o que precisa aprender</p>
                 <p>
                     Desenvolva projetos similares a situações reais e aprenda exatamente o que vai
@@ -64,44 +80,48 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <p class="title">Conteúdo sempre atualizado</p>
-                <p>Estude sempre as principais tendências do mercado e boas práticas</p>
-            </div>
-        </div>
-        <div class="row">
-            <section class="col-md-6">
-                <p class="title">Desenvolva habilidades multidisciplinares</p>
+                <h2 class="title">Desenvolva habilidades multidisciplinares</h2>
                 <p>
                     Nós queremos que você seja desenvolver profissionais completos!
                     Você vai aprender lógica, raciocínio, como lidar com clientes e equipe,
                     gestão de projetos além de autonomia e criatividade.
                 </p>
+            </div>
+        </div>
+        <div class="row">
+            <section class="col-md-8 col-md-offset-2">
+                <h2 class="title"><i class="fa fa-refresh"></i> Conteúdo sempre atualizado</h2>
+                <p>Estude sempre as principais tendências do mercado e boas práticas</p>
             </section>
-            <section class="col-md-6">
-                <p class="title">Acumule pontos e conquistas</p>
+        </div>
+        <div class="row">
+             <section class="col-md-6">
+                <h2 class="title"><i class="fa fa-trophy"></i> Acumule pontos e conquistas</h2>
                 <p>
                     Mostre o tanto que você sabe e as habilidade e competências
                     adquiridas durante seus estudos através de pontos e badges
                 </p>
             </section>
-        </div>
-        <div class="row">
-            <p>1 PONTO EQUIVALE A 1 REAL DE REMUNERAÇÃO QUE VOCÊ DEVERIA GANHAR</p>
+            <section class="col-md-6">
+                <p>1 PONTO EQUIVALE A 1 REAL DE REMUNERAÇÃO QUE VOCÊ DEVERIA GANHAR</p>
+            </section>
         </div>
         <div class="row">
             <section class="col-md-6">
-                <p class="title">Construa seu portfolio</p>
+                <h2 class="title">Construa seu portfolio</h2>
                 <p>
                     É sempre difícil mostrar seu valor sem um portfolio do que você já construiu.
                     Aprenda contruindo projetos que você poderá mostrar para qualquer pessoa!
                 </p>
             </section>
             <section class="col-md-6">
-                <p class="title">Seja visto(a) por empresas e agências</p>
+                <h2 class="title">Seja visto(a) por empresas e agências</h2>
             </section>
         </div>
         <div class="row">
-            <p class="title">Entre no mercado de trabalho \o/</p>
+            <h2 class="title">Entre no mercado de trabalho \o/</h2>
+            <!-- <p><img src="http://media.giphy.com/media/x790itVk2bD9K/giphy.gif" /></p> -->
+
         </div>
     </div>
 
@@ -109,5 +129,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script src="js/skrollr.js"></script>
+    <script src="js/main.js"></script>
+
   </body>
 </html>
