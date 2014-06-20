@@ -51,6 +51,15 @@ h1 span{
 	color: #fff;
 	padding-top: 2em;
 }
+/* awards*/
+
+.awards{
+	background: url('../img/congruent_pentagon.png') fixed;
+	border-radius: 8px;
+	padding: 1em 0;
+	margin: 1em 0;
+}
+
 
 /* skrollr */
 #skrollr-body > .container{
