@@ -41,7 +41,7 @@ nav{
 .logo{
 	width: 100px;
 }
-.header-banner{
+#header-banner{
 	background-color: #f48753;
 	color: #fff;
 	padding: 2em 0;
@@ -65,6 +65,7 @@ nav{
 	background: url('../img/stardust.png') fixed;
 	color: #fff;
 	padding-top: 2em;
+/*	position: relative;*/
 }
 /* awards*/
 
@@ -76,52 +77,71 @@ nav{
 }
 
 /* success-banner */
-@-webkit-keyframes blink {
-  0%, 100%  { opacity: 0.3; }
-  50% 		{ opacity: 0.8; }
-}
-@-moz-keyframes blink {
-  0%, 100%  { opacity: 0.3; }
-  50% 		{ opacity: 0.8; }
-}
-@-o-keyframes blink {
-  0%, 100%  { opacity: 0.3; }
-  50% 		{ opacity: 0.8; }
-}
-@keyframes blink {
-  0%, 100%  { opacity: 0.3; }
-  50% 		{ opacity: 0.8; }
-}
-#flag {
-	color: #3364a0;
-	font-size: 1.5em;
-	position: absolute;
-	top: 5px;
-	right: 5px;
-	-webkit-animation: blink 3s infinite; /* Safari 4+ */
-	-moz-animation:    blink 3s infinite; /* Fx 5+ */
-	-o-animation:      blink 3s infinite; /* Opera 12+ */
-	animation:         blink 3s infinite; /* IE 10+ */
-}
 .success-banner{
 	background-color: #5d8ecb;
 	border-radius: 5px;
 	color: #FFF;
 	margin-bottom: 1em;
-	position: relative;
 }
 
+/* footer */
+footer{
+	background-color: #444;
+	color: #FFF;
+	font-size: 15px;
+	padding: 1em 0;
+}
+footer h3{
+	font-size: 18px;
+}
+
+
 /* skrollr */
+#skrollr-body{
+	overflow: hidden;
+}
 #toy-path{
 	position: fixed;
+}
+#toy-icons{
+	position: relative;
+	top: 260px;
+}
+#toy-icons i{
+	position: absolute;
+	opacity: 0;
+}
+#toy-icons .fa-keyboard-o{
+	color: #666;
+	left: 15px;
+}
+#toy-icons .fa-codepen{
+	right: -10px;
+}
+#toy-icons .fa-pencil-square-o{
+	color: #319956;
+	left: -20px;
+}
+#toy-icons .fa-puzzle-piece {
+	color: #075FA6;
+	left: -10px;
+	top: 45px;
+}
+#toy-icons .fa-gamepad{
+	color: #D24324;
+	right: -5px;
+}
+#toy-icons .fa-trophy{
+	color: #E3B816;
+	top: 50px;
+	right: 12px;
 }
 
 /* sprites */
 #bonequinho{
 	position: absolute;
-	top: 200px;
-	left: 10px;
+	top: 260px;
+	background: url('../img/bonequinho.png');
+	width: 52px;
+	height: 70px;
 }
-.boneco1 { background: url('../img/bonequinho.png') no-repeat 0 0; width: 51px; height: 64px; }
-.boneco2 { background: url('../img/bonequinho.png') no-repeat -52px 0; width: 51px; height: 64px; }
-.bonecoparado { background: url('../img/bonequinho.png') no-repeat -104px 0; width: 51px; height: 63px; }

@@ -18,18 +18,50 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
   </head>
   <body>
     <div id="skrollr-body">
         <div id="toy-path" class="container">
-            <div id="bonequinho" class="bonecoparado"></div>
+            <div id="bonequinho"
+                data-370="transform:rotate(0deg);"
+                data-750="transform:rotate(360deg);"
+            ></div>
+            <div id="toy-icons">
+                <i class="fa fa-keyboard-o"
+                    data-850="opacity: 0; top: -100px;"
+                    data-980="opacity: 1; top: 50px;"
+                    data-1280="opacity: 0; "></i>
+                <i class="fa fa-codepen"
+                    data-850="opacity: 0; top: -50px;"
+                    data-1000="opacity: 1; "
+                    data-1280="opacity: 0; top: 100px;"></i>
+                <i class="fa fa-pencil-square-o"
+                    data-850="opacity: 0; top: -100px;"
+                    data-960="opacity: 1;"
+                    data-1280="opacity: 0; top: 200px;"></i>
+                <i class="fa fa-puzzle-piece"
+                    data-850="opacity: 0; top: -120px;"
+                    data-1100="opacity: 1;"
+                    data-1280="opacity: 0; top: 220px;"></i>
+                <i class="fa fa-gamepad"
+                    data-850="opacity: 0; top: -90px;"
+                    data-990="opacity: 1;"
+                    data-1280="opacity: 0; top: 40px;"></i>
+                <i class="fa fa-trophy"
+                    data-1290="opacity: 0;"
+                    data-1390="opacity: 1;"
+                    data-1580="opacity: 0;"></i>
+            </div>
         </div>
     </div>
 
     <nav class="container">
         <img class="logo pull-right" src="img/logo.png" alt="Mupi logo">
     </nav>
-    <div class="header-banner">
+    <div id="header-banner">
         <header class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center">
@@ -58,7 +90,7 @@
     </div>
     <div class="bg-lua">
          <div class="container">
-            <div class="col-md-6">
+            <div class="col-md-5 col-md-offset-1">
                 <h2 class="title">Aprenda de qualquer lugar</h2>
                 <p>Nossa escola é 100% online, você pode acessá-la de onde você estiver e a hora que quiser.</p>
                 <p>
@@ -72,7 +104,7 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-5 col-md-offset-1">
                 <h2 class="title">Aprenda na prática</h2>
                 <p>
                     Desenvolva projetos similares a situações reais e aprenda exatamente o que vai
@@ -82,7 +114,7 @@
                     <img class="img-rounded" src="img/terminal.gif" alt="Gif terminal">
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5">
                 <h2 class="title">Desenvolva habilidades multidisciplinares</h2>
                 <p>
                     Nós queremos que você seja um profissional completo!
@@ -96,7 +128,7 @@
         </div>
         <div class="row awards">
              <section class="col-md-8 col-md-offset-2 text-center">
-                <h2 class="title"><i class="fa fa-trophy"></i> Acumule pontos e conquistas</h2>
+                <h2 class="title">Acumule pontos e conquistas</h2>
                 <p>
                     Mostre as habilidades e competências
                     adquiridas durante seus estudos através de pontos e badges.
@@ -108,7 +140,7 @@
             </section>
         </div>
         <div class="row">
-            <section class="col-md-7">
+            <section class="col-md-6 col-md-offset-1">
                 <h2 class="title">Construa seu portfolio</h2>
                 <p>
                     É sempre difícil mostrar seu valor profissional sem ter um portfolio,
@@ -123,18 +155,35 @@
             </section>
         </div>
         <div class="row success-banner">
-            <i id="flag" class="fa fa-flag-checkered"></i>
             <h2 class="title text-center">Entre no mercado de trabalho!</h2>
         </div>
     </div>
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-
+    <footer>
+        <div class="container">
+            <section class="col-md-4">
+                <h3>Carreiras</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Desenvolvimento (em breve)</li>
+                </ul>
+            </section>
+            <section class="col-md-4">
+                <h3>Carreiras</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Desenvolvimento (em breve)</li>
+                </ul>
+            </section>
+            <section class="col-md-4">
+                <h3>Carreiras</h3>
+                <ul>
+                    <li>Web Design</li>
+                    <li>Web Desenvolvimento (em breve)</li>
+                </ul>
+            </section>
+        </div>
+    </footer>
     <script src="js/skrollr.js"></script>
     <script src="js/main.js"></script>
-
   </body>
 </html>
