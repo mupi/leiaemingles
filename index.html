@@ -29,13 +29,24 @@
 
   </head>
   <body>
+    <!-- facebook like plugin -->
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=292772274170801&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- end facebook plugin -->
+
     <div id="skrollr-body" class="hidden-xs">
-        <div id="toy-path" class="container hidden-xs">
-            <div id="bonequinho hidden-xs"
+        <div id="toy-path" class="container">
+            <div id="bonequinho"
                 data-370="transform:rotate(0deg);"
                 data-750="transform:rotate(360deg);"
             ></div>
-            <div id="toy-icons hidden-xs">
+            <div id="toy-icons">
                 <i class="fa fa-keyboard-o"
                     data-850="opacity: 0; top: -100px;"
                     data-980="opacity: 1; top: 50px;"
@@ -79,6 +90,7 @@
             <div class="row">
                 <div class="col-sm-8 col-sm-offset-2 text-center">
                     <h1>Como iniciar uma carreira de <span>sucesso</span><br/> na Escola Mupi</h1>
+                    <div class="fb-like" data-href="http://mupi.github.io" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
                 </div>
             </div>
         </header>
