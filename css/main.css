@@ -1,12 +1,16 @@
 body{
 	font-family: 'Lato';
-    font-size: 210%;
+    font-size: 200%;
     color: #444;
 }
-
+@media (max-width: 600px) {
+  body{
+	font-size: 140%;
+  }
+}
 /* TIPOGRAPHY */
 h1{
-	font-size: 2.4em;
+	font-size: 2.3em;
 	text-transform: uppercase;
 }
 h1 span{
@@ -32,8 +36,9 @@ h1 span:before {
 	margin: 1em 0;
 }
 .btn-success{
-	font-size: 1.2em;
+	font-size: 1.1em;
 }
+
 /* END TIPOGRAPHY */
 
 /* HEADER */
