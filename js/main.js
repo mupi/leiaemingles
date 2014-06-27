@@ -33,17 +33,21 @@ $(window).load(function($){
 					if (o.curTop == 200){ curFrm=4; }
 					if (curFrm>=6){ curFrm=-1; }
 					backPosY = '70px';
-				} else{
-					if (curFrm>=3){ curFrm=-1; backPosY = '0px';}
+				} else if (o.curTop >= 1600){
+					curFrm=3; backPosY = '0px';
+				}
+				else {
+					if (curFrm>=3){ curFrm=-1; backPosY = '0px'; }
 				}
 				bonequinho.css('background-position', pLocs[curFrm++] + 'px ' + backPosY);
 				lastStep = o.curTop;
-			} else if(o.curTop < lastStep - 30) {
-				if (curFrm<=0){ curFrm=2; }
-				bonequinho.css('background-position', pLocs[curFrm--] + 'px ' + backPosY);
-				lastStep = o.curTop;
+			} else if(o.curTop <= lastStep - 30) {
+				if (o.curTop <= 1600){
+					if ((curFrm<=0) || (curFrm>2)) { curFrm=2; backPosY = '0px';}
+					bonequinho.css('background-position', pLocs[curFrm--] + 'px ' + backPosY);
+					lastStep = o.curTop;
+				}
 			}
-
 		}
 	});
 });

@@ -82,6 +82,7 @@ nav{
 	border-radius: 5px;
 	color: #FFF;
 	margin-bottom: 1em;
+	position: relative;
 }
 
 /* footer */
@@ -105,7 +106,7 @@ footer h3{
 }
 #toy-icons{
 	position: relative;
-	top: 260px;
+	top: 280px;
 }
 #toy-icons i{
 	position: absolute;
@@ -136,11 +137,17 @@ footer h3{
 	top: 50px;
 	right: 12px;
 }
+.fa-globe{
+	position: absolute;
+	left: 30px;
+	top: -5px;
+	font-size: 2em;
+}
 
 /* sprites */
 #bonequinho{
 	position: absolute;
-	top: 260px;
+	top: 280px;
 	background: url('../img/bonequinho.png');
 	width: 52px;
 	height: 70px;
