@@ -52,7 +52,7 @@ nav{
 	background-color: #f48753;
 	color: #fff;
 	padding: 2em 0;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 .fb-like{
 	max-width: 30%;
