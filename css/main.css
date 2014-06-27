@@ -31,7 +31,9 @@ h1 span:before {
 	font-weight: bold;
 	margin: 1em 0;
 }
-
+.btn-success{
+	font-size: 1.2em;
+}
 /* END TIPOGRAPHY */
 
 /* HEADER */
