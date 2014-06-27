@@ -23,14 +23,14 @@ var bonequinho = $('#bonequinho'),
 	pLocs = [0, -52, -104, -156, -208, -260],
 	curFrm = 0,
 	lastStep=0,
-	animationCycle, backPosY='0px';
+	backPosY='0px';
 
 $(window).load(function($){
 	var s = skrollr.init({
 		beforerender: function(o){
 			if(o.curTop > lastStep + 30) {
-				if ((o.curTop >= 200) && (o.curTop <= 350)){
-					if (o.curTop == 200){ curFrm=4; }
+				if ((o.curTop >= 160) && (o.curTop <= 350)){
+					if (o.curTop == 160){ curFrm=4; }
 					if (curFrm>=6){ curFrm=-1; }
 					backPosY = '70px';
 				} else if (o.curTop >= 1600){

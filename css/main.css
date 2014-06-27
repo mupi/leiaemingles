@@ -84,21 +84,41 @@ nav{
 	border-radius: 5px;
 	color: #FFF;
 	margin-bottom: 1em;
-	position: relative;
 }
-
+.enroll{
+	padding-bottom: 1em;
+}
+.enroll i{
+	display: inline-block;
+	margin-left: 5px;
+}
 /* footer */
 footer{
-	background-color: #444;
-	color: #FFF;
+	border-top: 1px solid #ddd;
+	color: #666;
 	font-size: 15px;
 	padding: 1em 0;
 }
 footer h3{
 	font-size: 18px;
 }
-
-
+.nav-social-icons li{
+    list-style: none;
+    display: inline-block;
+	margin: 10px;
+    font-size: 1.2em;
+}
+.nav-social-icons li a{
+	color: #FFF;
+	background-color: #222;
+	border-radius: 50%;
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+}
+.nav-social-icons li a:hover{
+	background-color: #888;
+}
 /* skrollr */
 #skrollr-body{
 	overflow: hidden;
