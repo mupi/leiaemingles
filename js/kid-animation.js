@@ -33,7 +33,7 @@ $(window).load(function($){
 					if (o.curTop == 160){ curFrm=4; }
 					if (curFrm>=6){ curFrm=-1; }
 					backPosY = '70px';
-				} else if (o.curTop >= 1600){
+				} else if (o.curTop >= 1200){
 					curFrm=3; backPosY = '0px';
 				}
 				else {
@@ -42,7 +42,7 @@ $(window).load(function($){
 				bonequinho.css('background-position', pLocs[curFrm++] + 'px ' + backPosY);
 				lastStep = o.curTop;
 			} else if(o.curTop <= lastStep - 30) {
-				if (o.curTop <= 1600){
+				if (o.curTop <= 1000){
 					if ((curFrm<=0) || (curFrm>2)) { curFrm=2; backPosY = '0px';}
 					bonequinho.css('background-position', pLocs[curFrm--] + 'px ' + backPosY);
 					lastStep = o.curTop;
