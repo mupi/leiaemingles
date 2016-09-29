@@ -24,6 +24,9 @@ h1{
   background-position: center;
   padding: 2em 0;
 }
+.first-row.institution{
+  background: url('../img/bg-institution.jpg') no-repeat fixed;
+}
 .btn-success{
 	font-size: 1.1em;
 }
