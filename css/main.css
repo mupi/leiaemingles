@@ -50,12 +50,7 @@ nav{
 .logo{
 	width: 50px;
 }
-.headerbg{
-	background-color: #f48753;
-  background: url('../img/headerbg.jpg') top left / 100% no-repeat fixed;
-	color: #fff;
-	padding: 2em 0;
-}
+
 /* END HEADER */
 
 .advantages{
